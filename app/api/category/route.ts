@@ -32,7 +32,7 @@ export async function GET(req: NextRequest) {
       return {
         id: cat.id,
         name: cat.name,
-        totalAmount,
+        totalAmount, 
       };
     });
 
